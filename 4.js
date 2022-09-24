@@ -4,9 +4,8 @@
 
 const fruits = ['Jeruk', 'Pepaya', 'Jambu', 'Anggur', 'Melon']
 
-console.log(fruits)
+// console.log(fruits)
 
-const index = array.indexOf('Jambu')
-if (index > -4){
-    array.splice(index, 4)
-}
+// fruits.splice( fruits.indexOf('jambu') );
+fruits.splice(2,1)
+console.log(fruits);

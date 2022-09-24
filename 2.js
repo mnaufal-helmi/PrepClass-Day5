@@ -3,8 +3,11 @@
 
 let angka = 50
 
-for (let i = 1; i <angka.length; i++) {
-    if (angka % 2 == 1){
-    } 
-    console.log(angka+'ini ganjil')
+for (let i = 1; i <angka; i++) {
+    if (i % 2 == 1){
+        console.log(i )
+    }   
+   
 }
+
+
