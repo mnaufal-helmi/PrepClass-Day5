@@ -17,7 +17,14 @@ const people = [
   
 //}
 
-if ({age < 21}) {
+// function checkAdult(people) {
+//   return people < 21;
+// }
+
+const result = people.filter((people) => people.age < 21);
+
+console.log(result);
+
   
 }
 
